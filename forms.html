@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        
+        <form method="post"
+              action="forms.html">
+            
+            
+            <input type="text"
+                   maxlength="30"
+                   name="fullname"
+                   placeholder="Full Name"
+                   value="Hello World">
+            
+            <input type="password"
+                   maxlength="10"
+                   placeholder="Password"
+                   name="password"
+                   value="root123">
+            
+            <textarea maxlength="20"
+                      rows="6"
+                      cols="30"
+                      placeholder="Enter your text..."
+                      value=""
+                      name="user-text"></textarea>
+            
+            <br>
+            
+            <input type="radio"
+                   name="fruits"
+                   value="Apple">Apple
+            
+            <input type="radio"
+                   name="fruits"
+                   value="Mango">Mango
+            
+            <input type="radio"
+                   name="fruits"
+                   value="Orange">Orange
+            
+            <input type="radio"
+                   name="fruits"
+                   value="Others"
+                   checked>Others
+            
+            <br>
+            
+            <input type="checkbox"
+                   name="texteditor"
+                   value="Atom"
+                   checked>Atom
+            
+            <input type="checkbox"
+                   name="texteditor"
+                   value="Brackets">Brackets
+            
+            <input type="checkbox"
+                   name="texteditor"
+                   value="SublimeText">Sublime Text
+            
+            <br>
+            
+            <select>
+                
+                <option value="-">---</option>
+                
+                <option value="macOS">macOS</option>
+                
+                <option value="Windows">Windows</option>
+                
+                <option value="Ubuntu"
+                        selected>Ubuntu</option>
+                
+            </select>
+            
+            <br>
+            
+            <input type="hidden"
+                   value="this is a hidden value"
+                   name="hiddenFieldValue">
+            
+            <br>
+            
+            <input type="reset"
+                   value="Reset">
+            
+            <input type="submit"
+                   value="Submit">
+            
+        </form>
+        
+    </body>
+</html>
